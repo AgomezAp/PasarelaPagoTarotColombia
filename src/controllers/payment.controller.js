@@ -17,7 +17,7 @@ export const createOrder = async (req, res) => {
         items: [
           {
             id: "1",
-            title: "Número de la suerte",
+            title: "Lectura de cartas tarot",
             quantity: 1,
             unit_price: 6000,
           },
