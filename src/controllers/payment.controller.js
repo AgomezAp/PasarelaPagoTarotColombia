@@ -24,7 +24,7 @@ export const createOrder = async (req, res) => {
         ],
         back_urls: {
          success: 'https://cartastarotcolombia.com/descripcion-cartas?status=success',
-         failure: 'http://cartastarotcolombia.com/welcome?status=failure' 
+         failure: 'https://cartastarotcolombia.com/welcome?status=failure' 
           
         },
         notification_url:
