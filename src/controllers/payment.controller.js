@@ -41,6 +41,10 @@ export const createOrder = async (req, res) => {
           installments: 3,
         },
         auto_return: "approved",
+        payer: {
+          name: "CLIENT_NAME", // Obtener de los datos del usuario
+          email: "CLIENT_EMAIL", // Obtener de los datos del usuario
+        },
       },
     });
     console.log(result);
