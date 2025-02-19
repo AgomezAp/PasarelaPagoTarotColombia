@@ -34,6 +34,9 @@ export const createOrder = async (req, res) => {
             {
               id: "efecty",
             },
+            {
+              id: "pse",
+            }
           ],
           installments: 3,
         },
