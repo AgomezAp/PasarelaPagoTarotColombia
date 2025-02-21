@@ -19,7 +19,7 @@ export const createOrder = async (req, res) => {
             id: "1",
             title: "Lectura de cartas tarot",
             quantity: 1,
-            unit_price: 6000,
+            unit_price: 15000,
           },
         ],
         back_urls: {
